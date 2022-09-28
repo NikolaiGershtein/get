@@ -9,7 +9,7 @@ dac = [26, 19, 13, 6, 5, 11, 9, 10]
 [GPIO.setup(i, GPIO.OUT) for i in dac]
 t = float(input())
 try:
-    while 1:
+    while True:
         
 
         for ch in range(0, 255, +1):
